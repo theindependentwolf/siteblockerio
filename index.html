@@ -10,49 +10,46 @@
 <body class="bg-slate-300 text-gray-800 flex flex-col flex-grow">
 
     <!-- Header -->
-    <header class="bg-slate-800 text-white py-8">
+    <header class="bg-slate-800 text-white py-4 md:py-8">
         <div class="container mx-auto px-4 flex justify-between items-center">
             <a href="/" class="flex items-center">
-                <img src="assets/icon.png" alt="SiteBlocker Logo" class="h-8 mr-2">
-                <span class="font-bold text-2xl">SiteBlocker</span>
+                <img src="assets/icon.png" alt="SiteBlocker Logo" class="h-6 md:h-8 mr-2">
+                <span class="font-bold text-xl md:text-2xl">SiteBlocker</span>
             </a>
         </div>
     </header>
 
-    <!-- Banner (outside the container for full width) -->
-    <div class="bg-slate-800 text-white text-center p-10">
-        <h2 class="text-7xl font-bold py-8">SiteBlocker</h2>
-        <p class="mt-3 text-lg">Stay focused and productive by blocking distracting websites or websites you dislike.</p>
+    <!-- Banner -->
+    <div class="bg-slate-800 text-white text-center p-5 md:p-10">
+        <h2 class="text-5xl md:text-7xl font-bold py-5 md:py-8">SiteBlocker</h2>
+        <p class="text-base md:text-lg">Stay focused and productive by blocking distracting websites or websites you dislike.</p>
     </div>
 
     <!-- Main Content -->
-    <div class="container mx-auto px-4 my-10 flex-grow bg-slate-300">
+    <div class="container mx-auto px-4 my-5 md:my-10 flex-grow bg-slate-300">
         <div class="text-center">
             <!-- Links with Bigger Icons -->
-            <div class="flex justify-center mt-5">
-                <a href="https://addons.mozilla.org/en-US/firefox/addon/siteblockerio/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2 flex items-center">
-                    <img src="assets/firefox.png" alt="Firefox Logo" class="h-8 mr-2"> <!-- Increased height -->
+            <div class="flex flex-col md:flex-row justify-center mt-3 md:mt-5">
+                <a href="https://addons.mozilla.org/en-US/firefox/addon/siteblockerio/" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mb-2 md:mb-0 md:mr-2 flex items-center justify-center">
+                    <img src="assets/firefox.png" alt="Firefox Logo" class="h-6 md:h-8 mr-2">
                     Firefox Addon
                 </a>
-                <a href="link_to_chrome_extension" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded flex items-center">
-                    <img src="assets/chrome.png" alt="Chrome Logo" class="h-8 mr-2"> <!-- Increased height -->
+                <a href="link_to_chrome_extension" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded flex items-center justify-center">
+                    <img src="assets/chrome.png" alt="Chrome Logo" class="h-6 md:h-8 mr-2">
                     Chrome Extension
                 </a>
             </div>
         </div>
-
-        <!-- Additional Section Commented Out -->
     </div>
 
     <!-- Footer -->
     <footer class="bg-slate-900 py-4">
-        <div class="container mx-auto px-4 flex justify-between items-center text-white">
-            <p>&copy; 2023 SiteBlocker</p>
-            <a href="privacypolicy.html" class="text-white hover:text-gray-300">Privacy Policy</a>
+        <div class="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-white text-center md:text-left">
+            <p class="mb-2 md:mb-0">&copy; 2023 SiteBlocker</p>
+            <a href="privacypolicy.html" class="mb-2 md:mb-0 md:mr-2 text-white hover:text-gray-300">Privacy Policy</a>
             <a href="mailto:help@theindependentwolf.com" class="text-white">info@theindependentwolf.com</a>
         </div>
     </footer>
-
 
 </body>
 </html>
